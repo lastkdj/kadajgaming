@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.80578f94.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.09766a4e.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.09766a4e.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.78411f47.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.5477afbb.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.5477afbb.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
     "static/js/2.63b43018.chunk.js": "/kadajgaming/static/js/2.63b43018.chunk.js",
     "static/js/2.63b43018.chunk.js.map": "/kadajgaming/static/js/2.63b43018.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.5452fa659b5295766196b4159e120443.js": "/kadajgaming/precache-manifest.5452fa659b5295766196b4159e120443.js",
+    "precache-manifest.c84d5069fb8506bfd51f2def8e2f523a.js": "/kadajgaming/precache-manifest.c84d5069fb8506bfd51f2def8e2f523a.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.80578f94.chunk.css.map": "/kadajgaming/static/css/main.80578f94.chunk.css.map",
+    "static/css/main.78411f47.chunk.css.map": "/kadajgaming/static/css/main.78411f47.chunk.css.map",
     "static/js/2.63b43018.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.63b43018.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/kadajgaming/static/media/destro.3c427c11.jpg",
     "static/media/logo.svg": "/kadajgaming/static/media/logo.5d5d9eef.svg",
     "static/media/newintro.mp4": "/kadajgaming/static/media/newintro.17b85069.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
     "static/js/2.63b43018.chunk.js",
-    "static/css/main.80578f94.chunk.css",
-    "static/js/main.09766a4e.chunk.js"
+    "static/css/main.78411f47.chunk.css",
+    "static/js/main.5477afbb.chunk.js"
   ]
 }
