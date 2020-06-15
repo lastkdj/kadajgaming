@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7da24763bd5123e6ad6ce0f64d866b86",
+    "revision": "be784eb8a0d08224c7c4ff7b055727c0",
     "url": "/kadajgaming/index.html"
   },
   {
-    "revision": "df662f589696b4ca4f60",
-    "url": "/kadajgaming/static/css/main.1bf0d6a5.chunk.css"
+    "revision": "a21ad37200504bfef14c",
+    "url": "/kadajgaming/static/css/main.32481f77.chunk.css"
   },
   {
     "revision": "30fe542d51670a552abc",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/js/2.c5b375fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df662f589696b4ca4f60",
-    "url": "/kadajgaming/static/js/main.f17d0dd4.chunk.js"
+    "revision": "a21ad37200504bfef14c",
+    "url": "/kadajgaming/static/js/main.fa953d7b.chunk.js"
   },
   {
     "revision": "bfb06f68744b24ec6bb0",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/media/destro.3c427c11.jpg"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/kadajgaming/static/media/logo.5d5d9eef.svg"
+    "revision": "bd6b804f1845cad6de9e80ad1e2c35fe",
+    "url": "/kadajgaming/static/media/dungeon.bd6b804f.png"
   },
   {
-    "revision": "ed52d078c4a2d5f9e6f1702eb97ecf4e",
-    "url": "/kadajgaming/static/media/mechagon.ed52d078.jpg"
+    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
+    "url": "/kadajgaming/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "17b850694dd24e988ad54d10c4f77b8e",
