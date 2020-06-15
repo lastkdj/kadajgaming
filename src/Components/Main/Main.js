@@ -48,8 +48,11 @@ const Main = () => {
         </section>
       </div>
       <div className="nyalothacontainer">
-        <section className="nyalothasection">
+        <section className="nyalothasection" id="parent">
           <h1>Nyalotha Raid Guide</h1>
+          <p className="nyalothafade">
+            Raiding tips, BiS gear, log parses and more..
+          </p>
         </section>
       </div>
     </div>
