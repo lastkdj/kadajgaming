@@ -4,8 +4,6 @@ import Vision from "../Imagenes/vision.mp4";
 import HoverVideoPlayer from "react-hover-video-player";
 
 const Main = () => {
-  const [PlayVideo, setPlayVideo] = useState(false);
-
   return (
     <div>
       <div className="classcontainer">
@@ -26,7 +24,7 @@ const Main = () => {
         <section className="mythicsection" id="parent2">
           <h1>Mythic +</h1>
           <p className="mythicfade">
-            Raiding tips, BiS gear, log parses and more..
+            Is Demonology the best M+ spec so far? Find out!
           </p>
         </section>
         <section
