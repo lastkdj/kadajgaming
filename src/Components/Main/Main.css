@@ -22,6 +22,7 @@
   transition: filter 0.2s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(100%);
+  cursor: pointer;
 }
 .demosection:hover {
   -webkit-filter: grayscale(100%);
@@ -42,6 +43,7 @@
   transition: filter 0.2s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(100%);
+  cursor: pointer;
 }
 
 .afflicsection:hover {
@@ -63,6 +65,7 @@
   transition: filter 0.2s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(100%);
+  cursor: pointer;
 }
 
 .destrosection:hover {
@@ -78,6 +81,92 @@
 }
 
 .destrocontainer h1 {
+  color: white;
+  margin-left: 50px;
+  font-size: 3em;
+  text-shadow: 2px 2px #000000;
+}
+
+.dungeoncontainer {
+  display: flex;
+  height: 49vh;
+}
+
+.nyalothacontainer {
+  display: flex;
+  height: 50vh;
+  background-color: rgb(45, 0, 128);
+}
+
+.mythicsection {
+  background-image: url(../Imagenes/mechagon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400%;
+  -moz-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  transition: filter 0.2s ease-in-out;
+  -webkit-filter: grayscale(0%);
+
+  cursor: pointer;
+}
+
+.mythicsection h1 {
+  color: white;
+  margin-left: 50px;
+  font-size: 3em;
+  text-shadow: 2px 2px #000000;
+}
+
+.visionsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300%;
+  -moz-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  transition: filter 0.2s ease-in-out;
+  -webkit-filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.vision {
+  position: absolute;
+  overflow: auto;
+  height: 100%;
+}
+
+.vision h1 {
+  color: white;
+  margin-left: 50px;
+  font-size: 3em;
+  text-shadow: 2px 2px #000000;
+  z-index: 1;
+}
+
+.nyalothasection {
+  background-image: url(../Imagenes/nyalotha.jpg);
+  background-repeat: no-repeat;
+  background-position: 10% 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300%;
+  -moz-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+  transition: filter 0.2s ease-in-out;
+  -webkit-filter: grayscale(0%);
+
+  cursor: pointer;
+}
+
+.nyalothasection h1 {
   color: white;
   margin-left: 50px;
   font-size: 3em;
