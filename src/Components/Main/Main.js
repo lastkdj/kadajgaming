@@ -24,11 +24,12 @@ const Main = () => {
         <section className="mythicsection" id="parent2">
           <h1>Mythic +</h1>
           <p className="mythicfade">
-            Is Demonology the best M+ spec so far? Find out!
+            Demonology the best M+ spec so far? Find out!
           </p>
         </section>
         <section
           className="visionsection"
+          id="horri"
           //   onMouseEnter={() => setPlayVideo(true)}
           //   onMouseLeave={() => setPlayVideo(false)}
         >
@@ -46,6 +47,7 @@ const Main = () => {
             {" "}
           </HoverVideoPlayer>
           <h1 className="vision">Horrific Vision</h1>
+          <p className="horrific">5 Mask Strategys, Memento's farming</p>
         </section>
       </div>
       <div className="nyalothacontainer">
