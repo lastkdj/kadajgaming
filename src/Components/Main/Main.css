@@ -123,6 +123,8 @@
 .mythicsection h1 {
   color: white;
   margin-left: 50px;
+  margin-top: 0%;
+  margin-bottom: 0%;
   font-size: 3em;
   text-shadow: 2px 2px #000000;
 }
@@ -199,6 +201,30 @@
 }
 
 @keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+.mythicfade {
+  margin-left: 50px;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #000000;
+  display: none;
+}
+
+#parent2:hover .mythicfade {
+  animation: fadeInMythic ease 1s;
+  display: block;
+}
+
+@keyframes fadeInMythic {
   0% {
     opacity: 0;
     -webkit-transform: translateX(-50px);

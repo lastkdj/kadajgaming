@@ -23,8 +23,11 @@ const Main = () => {
         </section>
       </div>
       <div className="dungeoncontainer">
-        <section className="mythicsection">
+        <section className="mythicsection" id="parent2">
           <h1>Mythic +</h1>
+          <p className="mythicfade">
+            Raiding tips, BiS gear, log parses and more..
+          </p>
         </section>
         <section
           className="visionsection"
