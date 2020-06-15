@@ -44,8 +44,8 @@ const Main = () => {
 
           <HoverVideoPlayer className="player-wrapper" videoSrc={Vision}>
             {" "}
-            <h1>Horrific Visions</h1>
           </HoverVideoPlayer>
+          <h1 className="vision">Horrific Vision</h1>
         </section>
       </div>
       <div className="nyalothacontainer">
