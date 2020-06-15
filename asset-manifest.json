@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.78411f47.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.5477afbb.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.5477afbb.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.1bf0d6a5.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.f17d0dd4.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.f17d0dd4.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.63b43018.chunk.js": "/kadajgaming/static/js/2.63b43018.chunk.js",
-    "static/js/2.63b43018.chunk.js.map": "/kadajgaming/static/js/2.63b43018.chunk.js.map",
+    "static/js/2.c5b375fc.chunk.js": "/kadajgaming/static/js/2.c5b375fc.chunk.js",
+    "static/js/2.c5b375fc.chunk.js.map": "/kadajgaming/static/js/2.c5b375fc.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.c84d5069fb8506bfd51f2def8e2f523a.js": "/kadajgaming/precache-manifest.c84d5069fb8506bfd51f2def8e2f523a.js",
+    "precache-manifest.5d75dbb9ca8f5c3461d724569d09e699.js": "/kadajgaming/precache-manifest.5d75dbb9ca8f5c3461d724569d09e699.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.78411f47.chunk.css.map": "/kadajgaming/static/css/main.78411f47.chunk.css.map",
-    "static/js/2.63b43018.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.63b43018.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/kadajgaming/static/media/destro.3c427c11.jpg",
+    "static/css/main.1bf0d6a5.chunk.css.map": "/kadajgaming/static/css/main.1bf0d6a5.chunk.css.map",
+    "static/js/2.c5b375fc.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.c5b375fc.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/kadajgaming/static/media/nyalotha.62b0a2a9.jpg",
     "static/media/logo.svg": "/kadajgaming/static/media/logo.5d5d9eef.svg",
-    "static/media/newintro.mp4": "/kadajgaming/static/media/newintro.17b85069.mp4"
+    "static/media/newintro.mp4": "/kadajgaming/static/media/newintro.17b85069.mp4",
+    "static/media/vision.mp4": "/kadajgaming/static/media/vision.23d09e8f.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.63b43018.chunk.js",
-    "static/css/main.78411f47.chunk.css",
-    "static/js/main.5477afbb.chunk.js"
+    "static/js/2.c5b375fc.chunk.js",
+    "static/css/main.1bf0d6a5.chunk.css",
+    "static/js/main.f17d0dd4.chunk.js"
   ]
 }
