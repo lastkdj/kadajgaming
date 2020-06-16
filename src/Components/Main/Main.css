@@ -30,7 +30,7 @@
 }
 
 .afflicsection {
-  background-image: url(../Imagenes/afflic.jpg);
+  background-image: url(../Imagenes/aff.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -95,17 +95,16 @@
 .nyalothacontainer {
   display: flex;
   height: 50vh;
-  background-color: rgb(45, 0, 128);
 }
 
 .mythicsection {
-  background-image: url(../Imagenes/dungeon.png);
+  background-image: url(../Imagenes/dungeon.jpg);
   background-position: 60% 95%;
   background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
+  width: 50%;
   -moz-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
   -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
   box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
@@ -130,26 +129,30 @@
 }
 
 .visionsection {
+  background-image: url(../Imagenes/visionnew.jpg);
+  background-position: 60% 95%;
+  background-size: 100%;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
   width: 50%;
   -moz-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
   -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
   box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
-  transition: filter 0.2s ease-in-out;
-  -webkit-filter: grayscale(0%);
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: brightness(0%);
+  filter: brightness(100%);
   cursor: pointer;
 }
 
-.vision {
-  position: absolute;
-  overflow: auto;
-  top: 40%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.visionsection:hover {
+  -webkit-filter: brightness(0%);
+  filter: brightness(130%);
+}
+
+.visionsection h1 {
   color: white;
-  right: 5%;
+  margin-left: 50px;
   margin-top: 0%;
   margin-bottom: 0%;
   font-size: 3em;
@@ -238,12 +241,10 @@
 }
 
 .horrific {
-  position: absolute;
   overflow: auto;
-  top: 50%;
-  right: 5%;
-
   color: white;
+  margin-top: 0%;
+  margin-left: 50px;
   font-size: 1.3em;
   text-shadow: 2px 2px #000000;
   display: none;

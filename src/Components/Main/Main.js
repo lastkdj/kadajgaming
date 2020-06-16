@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./Main.css";
-import Vision from "../Imagenes/vision.mp4";
-import HoverVideoPlayer from "react-hover-video-player";
 
 const Main = () => {
   return (
@@ -28,10 +26,7 @@ const Main = () => {
           </p>
         </section>
         <section className="visionsection" id="horri">
-          <HoverVideoPlayer className="player-wrapper" videoSrc={Vision}>
-            {" "}
-          </HoverVideoPlayer>
-          <h1 className="vision">Horrific Vision</h1>
+          <h1>Horrific Vision</h1>
           <p className="horrific">5 Mask Strategys, Memento's farming</p>
         </section>
       </div>
