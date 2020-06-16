@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.1918df42.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.5cd7142e.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.5cd7142e.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.09cc6793.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.a80f2de0.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.a80f2de0.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.c5b375fc.chunk.js": "/kadajgaming/static/js/2.c5b375fc.chunk.js",
-    "static/js/2.c5b375fc.chunk.js.map": "/kadajgaming/static/js/2.c5b375fc.chunk.js.map",
+    "static/js/2.b815cedc.chunk.js": "/kadajgaming/static/js/2.b815cedc.chunk.js",
+    "static/js/2.b815cedc.chunk.js.map": "/kadajgaming/static/js/2.b815cedc.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.063b50e6e77486db3abd929cacdb86d2.js": "/kadajgaming/precache-manifest.063b50e6e77486db3abd929cacdb86d2.js",
+    "precache-manifest.a2b1703f773c0a44a939961059590d82.js": "/kadajgaming/precache-manifest.a2b1703f773c0a44a939961059590d82.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.1918df42.chunk.css.map": "/kadajgaming/static/css/main.1918df42.chunk.css.map",
-    "static/js/2.c5b375fc.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.c5b375fc.chunk.js.LICENSE.txt",
-    "static/media/Main.css": "/kadajgaming/static/media/nyalotha.62b0a2a9.jpg",
+    "static/css/main.09cc6793.chunk.css.map": "/kadajgaming/static/css/main.09cc6793.chunk.css.map",
+    "static/js/2.b815cedc.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.b815cedc.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/kadajgaming/static/media/visionnew.d9cb8479.jpg",
     "static/media/facebook.da60e514.svg": "/kadajgaming/static/media/facebook.da60e514.svg",
     "static/media/instagram.d898bdd7.svg": "/kadajgaming/static/media/instagram.d898bdd7.svg",
     "static/media/logo.svg": "/kadajgaming/static/media/logo.5d5d9eef.svg",
     "static/media/newintro.mp4": "/kadajgaming/static/media/newintro.17b85069.mp4",
     "static/media/twitchsvg.dfd157e8.svg": "/kadajgaming/static/media/twitchsvg.dfd157e8.svg",
     "static/media/twitter.54b613f3.svg": "/kadajgaming/static/media/twitter.54b613f3.svg",
-    "static/media/vision.mp4": "/kadajgaming/static/media/vision.23d09e8f.mp4",
     "static/media/youtube.72ac91a7.svg": "/kadajgaming/static/media/youtube.72ac91a7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.c5b375fc.chunk.js",
-    "static/css/main.1918df42.chunk.css",
-    "static/js/main.5cd7142e.chunk.js"
+    "static/js/2.b815cedc.chunk.js",
+    "static/css/main.09cc6793.chunk.css",
+    "static/js/main.a80f2de0.chunk.js"
   ]
 }
