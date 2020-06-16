@@ -27,22 +27,7 @@ const Main = () => {
             Demonology the best M+ spec so far? Find out!
           </p>
         </section>
-        <section
-          className="visionsection"
-          id="horri"
-          //   onMouseEnter={() => setPlayVideo(true)}
-          //   onMouseLeave={() => setPlayVideo(false)}
-        >
-          {/* {PlayVideo ? (
-            <video className="vision" autoPlay loop muted>
-              <source src={Vision} type="video/mp4" />
-            </video>
-          ) : (
-            <video className="vision" preload loop muted>
-              <source src={Vision} type="video/mp4" />{" "}
-            </video>
-          )} */}
-
+        <section className="visionsection" id="horri">
           <HoverVideoPlayer className="player-wrapper" videoSrc={Vision}>
             {" "}
           </HoverVideoPlayer>

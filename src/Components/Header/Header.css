@@ -77,7 +77,7 @@ ul li a {
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  animation: fadeInTop2 ease 2s;
+  animation: fadeInTop2 ease 1s;
 }
 
 @keyframes fadeInTop2 {
