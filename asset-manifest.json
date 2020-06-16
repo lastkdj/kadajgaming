@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.e4caa57f.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.a58afd13.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.a58afd13.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.1918df42.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.5cd7142e.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.5cd7142e.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.ee6b8a3a.chunk.js": "/kadajgaming/static/js/2.ee6b8a3a.chunk.js",
-    "static/js/2.ee6b8a3a.chunk.js.map": "/kadajgaming/static/js/2.ee6b8a3a.chunk.js.map",
+    "static/js/2.c5b375fc.chunk.js": "/kadajgaming/static/js/2.c5b375fc.chunk.js",
+    "static/js/2.c5b375fc.chunk.js.map": "/kadajgaming/static/js/2.c5b375fc.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.548a62545dba805e0a301e57c5e4afe1.js": "/kadajgaming/precache-manifest.548a62545dba805e0a301e57c5e4afe1.js",
+    "precache-manifest.063b50e6e77486db3abd929cacdb86d2.js": "/kadajgaming/precache-manifest.063b50e6e77486db3abd929cacdb86d2.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.e4caa57f.chunk.css.map": "/kadajgaming/static/css/main.e4caa57f.chunk.css.map",
-    "static/js/2.ee6b8a3a.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.ee6b8a3a.chunk.js.LICENSE.txt",
+    "static/css/main.1918df42.chunk.css.map": "/kadajgaming/static/css/main.1918df42.chunk.css.map",
+    "static/js/2.c5b375fc.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.c5b375fc.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/kadajgaming/static/media/nyalotha.62b0a2a9.jpg",
     "static/media/facebook.da60e514.svg": "/kadajgaming/static/media/facebook.da60e514.svg",
     "static/media/instagram.d898bdd7.svg": "/kadajgaming/static/media/instagram.d898bdd7.svg",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.ee6b8a3a.chunk.js",
-    "static/css/main.e4caa57f.chunk.css",
-    "static/js/main.a58afd13.chunk.js"
+    "static/js/2.c5b375fc.chunk.js",
+    "static/css/main.1918df42.chunk.css",
+    "static/js/main.5cd7142e.chunk.js"
   ]
 }
