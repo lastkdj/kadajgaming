@@ -1,6 +1,10 @@
 import React from "react";
 import "./Banner.css";
-import { SocialMediaIconsReact } from "social-media-icons-react";
+import { ReactComponent as TwitchSvg } from "../Imagenes/twitchsvg.svg";
+import { ReactComponent as Facebook } from "../Imagenes/facebook.svg";
+import { ReactComponent as Instagram } from "../Imagenes/youtube.svg";
+import { ReactComponent as Youtube } from "../Imagenes/twitter.svg";
+import { ReactComponent as Twitter } from "../Imagenes/instagram.svg";
 
 const Banner = () => {
   return (
@@ -21,85 +25,20 @@ const Banner = () => {
       </div>
       <div className="social">
         <ul>
+          <li id="twitch">
+            <a href="#"> {/* <TwitchSvg />{" "} */}</a>
+          </li>
           <li id="fb">
-            <a href="#">
-              <SocialMediaIconsReact
-                borderColor="rgba(255,0,0,0.25)"
-                borderWidth="5"
-                borderStyle="solid"
-                icon="facebook"
-                iconColor="rgba(255,252,252,1)"
-                backgroundColor="rgba(0,228,41,1)"
-                iconSize="6"
-                roundness="21%"
-                url="https://www.facebook.com/KadajGaming/"
-                size="39"
-              />
-            </a>
+            <a href="#">{/* <Facebook /> */}</a>
           </li>
           <li id="tweet">
-            <a href="#">
-              <SocialMediaIconsReact
-                borderColor="rgba(255,0,0,0.25)"
-                borderWidth="5"
-                borderStyle="solid"
-                icon="twitter"
-                iconColor="rgba(255,252,252,1)"
-                backgroundColor="rgba(0,228,41,1)"
-                iconSize="6"
-                roundness="21%"
-                url="https://twitter.com/darkkadaj"
-                size="39"
-              />
-            </a>
+            <a href="#">{/* <Youtube /> */}</a>
           </li>
           <li id="yt">
-            <a href="#">
-              <SocialMediaIconsReact
-                borderColor="rgba(255,0,0,0.25)"
-                borderWidth="5"
-                borderStyle="solid"
-                icon="youtube"
-                iconColor="rgba(255,252,252,1)"
-                backgroundColor="rgba(0,228,41,1)"
-                iconSize="6"
-                roundness="21%"
-                url="https://www.youtube.com/channel/UCgx2XgrA-GSLVWFekY8b8yQ"
-                size="39"
-              />
-            </a>
+            <a href="#">{/* <Twitter /> */}</a>
           </li>
           <li id="inst">
-            <a href="#">
-              <SocialMediaIconsReact
-                borderColor="rgba(255,0,0,0.25)"
-                borderWidth="5"
-                borderStyle="solid"
-                icon="instagram"
-                iconColor="rgba(255,252,252,1)"
-                backgroundColor="rgba(0,228,41,1)"
-                iconSize="6"
-                roundness="21%"
-                url="https://www.instagram.com/lastkdj/"
-                size="39"
-              />
-            </a>
-          </li>
-          <li id="gp">
-            <a href="#">
-              <SocialMediaIconsReact
-                borderColor="rgba(255,0,0,0.25)"
-                borderWidth="5"
-                borderStyle="solid"
-                icon="googleplus"
-                iconColor="rgba(255,252,252,1)"
-                backgroundColor="rgba(0,228,41,1)"
-                iconSize="6"
-                roundness="21%"
-                url=""
-                size="39"
-              />
-            </a>
+            <a href="#">{/* <Instagram /> */}</a>
           </li>
         </ul>
       </div>
