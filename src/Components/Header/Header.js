@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import { useEffect, useState } from "react";
+import MenuIcon from "@material-ui/icons/Menu";
+import { StylesProvider } from "@material-ui/styles";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,28 +24,35 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={scrolled ? "sticky" : "header"}>
-      <a href="#" className="logo">
-        Logo
-      </a>
-      <ul>
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Guides</a>
-        </li>
-        <li>
-          <a href="#">Videos</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
+    <StylesProvider injectFirst>
+      <div className={scrolled ? "sticky" : "header"}>
+        <a href="#" className="logo">
+          Logo
+        </a>
+        <div className="bannerphones"></div>
+        <div>
+          {" "}
+          <MenuIcon />{" "}
+        </div>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Guides</a>
+          </li>
+          <li>
+            <a href="#">Videos</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </StylesProvider>
   );
 };
 

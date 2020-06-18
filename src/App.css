@@ -16,3 +16,9 @@ header {
   z-index: -1;
   width: 100%;
 }
+
+@media (min-width: 375px) and (max-width: 480px) {
+  body {
+    display: flex;
+  }
+}

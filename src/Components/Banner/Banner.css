@@ -187,3 +187,12 @@
     -webkit-transform: translateY(0);
   }
 }
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .container {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
