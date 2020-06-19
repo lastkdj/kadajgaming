@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.fa2c0b1a.chunk.css",
+    "main.css": "/kadajgaming/static/css/main.b2517fc8.chunk.css",
     "main.js": "/kadajgaming/static/js/main.234af483.chunk.js",
     "main.js.map": "/kadajgaming/static/js/main.234af483.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
@@ -8,9 +8,9 @@
     "static/js/2.94aa18b4.chunk.js": "/kadajgaming/static/js/2.94aa18b4.chunk.js",
     "static/js/2.94aa18b4.chunk.js.map": "/kadajgaming/static/js/2.94aa18b4.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.402d86f8179163c9d1d93e9b23dca191.js": "/kadajgaming/precache-manifest.402d86f8179163c9d1d93e9b23dca191.js",
+    "precache-manifest.07c3d7110da38dcdcd6c19999a761d14.js": "/kadajgaming/precache-manifest.07c3d7110da38dcdcd6c19999a761d14.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.fa2c0b1a.chunk.css.map": "/kadajgaming/static/css/main.fa2c0b1a.chunk.css.map",
+    "static/css/main.b2517fc8.chunk.css.map": "/kadajgaming/static/css/main.b2517fc8.chunk.css.map",
     "static/js/2.94aa18b4.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.94aa18b4.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/kadajgaming/static/media/visionnew.d9cb8479.jpg",
     "static/media/Header.css": "/kadajgaming/static/media/bannerphones.f418b730.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
     "static/js/2.94aa18b4.chunk.js",
-    "static/css/main.fa2c0b1a.chunk.css",
+    "static/css/main.b2517fc8.chunk.css",
     "static/js/main.234af483.chunk.js"
   ]
 }
