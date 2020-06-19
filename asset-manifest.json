@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.d535d466.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.c56a6170.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.c56a6170.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.659ab8ad.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.3b6cf6bf.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.3b6cf6bf.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.c1125451.chunk.js": "/kadajgaming/static/js/2.c1125451.chunk.js",
-    "static/js/2.c1125451.chunk.js.map": "/kadajgaming/static/js/2.c1125451.chunk.js.map",
+    "static/js/2.8e55b526.chunk.js": "/kadajgaming/static/js/2.8e55b526.chunk.js",
+    "static/js/2.8e55b526.chunk.js.map": "/kadajgaming/static/js/2.8e55b526.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.b315446ff99c4e4c7da1252b073e9e63.js": "/kadajgaming/precache-manifest.b315446ff99c4e4c7da1252b073e9e63.js",
+    "precache-manifest.9230f07a80539fc6cf8085035c9bd1e2.js": "/kadajgaming/precache-manifest.9230f07a80539fc6cf8085035c9bd1e2.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.d535d466.chunk.css.map": "/kadajgaming/static/css/main.d535d466.chunk.css.map",
-    "static/js/2.c1125451.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.c1125451.chunk.js.LICENSE.txt",
+    "static/css/main.659ab8ad.chunk.css.map": "/kadajgaming/static/css/main.659ab8ad.chunk.css.map",
+    "static/js/2.8e55b526.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.8e55b526.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/kadajgaming/static/media/visionnew.d9cb8479.jpg",
     "static/media/Header.css": "/kadajgaming/static/media/bannerphones.2024f229.png",
     "static/media/facebook.da60e514.svg": "/kadajgaming/static/media/facebook.da60e514.svg",
+    "static/media/Banner.css": "/kadajgaming/static/media/guldan3.6c995e31.jpg",
     "static/media/instagram.d898bdd7.svg": "/kadajgaming/static/media/instagram.d898bdd7.svg",
     "static/media/logo.svg": "/kadajgaming/static/media/logo.5d5d9eef.svg",
     "static/media/newintro.mp4": "/kadajgaming/static/media/newintro.17b85069.mp4",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.c1125451.chunk.js",
-    "static/css/main.d535d466.chunk.css",
-    "static/js/main.c56a6170.chunk.js"
+    "static/js/2.8e55b526.chunk.js",
+    "static/css/main.659ab8ad.chunk.css",
+    "static/js/main.3b6cf6bf.chunk.js"
   ]
 }
