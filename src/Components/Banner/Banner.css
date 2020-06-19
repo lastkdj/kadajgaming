@@ -190,9 +190,48 @@
 
 @media (min-width: 375px) and (max-width: 480px) {
   .container {
+    background-image: url(../Imagenes/guldan3.jpg);
     display: flex;
     height: 80vh;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
+  }
+
+  .containerNest {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: center;
+  }
+
+  .firstsection {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn ease 2s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+  }
+
+  .firstsection h1 {
+    margin: 0%;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 4em;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .firstsection h1 span {
+    color: rgb(90, 240, 30);
   }
 }

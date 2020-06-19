@@ -3,7 +3,7 @@ import "./Main.css";
 
 const Main = () => {
   return (
-    <div>
+    <div className="main">
       <div className="classcontainer">
         <section className="demosection">
           <h1>Demonology Warlock</h1>

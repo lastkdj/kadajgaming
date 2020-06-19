@@ -265,3 +265,52 @@
     -webkit-transform: translateX(0);
   }
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+  .classcontainer {
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+  }
+
+  .demosection {
+    width: 100%;
+  }
+
+  .afflicsection {
+    width: 100%;
+  }
+
+  .destrocontainer {
+    display: flex;
+    height: 25%;
+  }
+
+  .dungeoncontainer {
+    display: flex;
+    height: 25%;
+  }
+
+  .nyalothacontainer {
+    display: flex;
+    height: 25%;
+  }
+
+  .classcontainer h1 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 3em;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .visionsection h1 {
+    margin-left: 0px;
+  }
+}
