@@ -9,7 +9,7 @@
 }
 
 .demosection {
-  background-image: url(../Imagenes/demo.jpg);
+  background-image: url(../Imagenes/demo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -279,15 +279,28 @@
 
   .demosection {
     width: 100%;
+    height: 50%;
+    filter: grayscale(0%);
+    height: 20vh;
+    background-size: 200%;
+    background-position: center;
   }
 
   .afflicsection {
     width: 100%;
+    height: 20vh;
+    background-size: 200%;
+    background-position: center;
+    filter: grayscale(0%);
   }
 
   .destrocontainer {
     display: flex;
     height: 25%;
+    height: 20vh;
+    background-size: 200%;
+    background-position: center;
+    filter: grayscale(0%);
   }
 
   .dungeoncontainer {
@@ -306,33 +319,81 @@
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    font-size: 3em;
+    font-size: 2.3em;
     text-shadow: 2px 2px #000000;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .afflicsection h1 {
+    margin: 0px 30px;
+  }
+
+  .destrosection {
+    background-size: 180%;
+
+    filter: grayscale(0%);
   }
 
   .destrocontainer h1 {
     color: white;
     margin: 0px;
-    font-size: 3em;
+    font-size: 2.3em;
     text-shadow: 2px 2px #000000;
+    justify-content: center;
+    text-align: center;
   }
 
   .mythicsection {
     width: 100%;
+    height: 20vh;
+    background-size: 180%;
+    background-position: right;
   }
 
   .mythicsection h1 {
     margin-left: 0px;
+    font-size: 2.3em;
+    justify-content: center;
+    text-align: center;
   }
   .visionsection {
     width: 100%;
+    height: 20vh;
+    background-size: 150%;
+    background-position: left;
   }
 
   .visionsection h1 {
+    font-size: 2.3em;
+    justify-content: center;
+    text-align: center;
     margin-left: 0px;
+  }
+
+  .nyalothasection {
+    height: 20vh;
+    background-size: 160%;
+    background-position: left;
   }
 
   .nyalothasection h1 {
     margin: 0px;
+    font-size: 2.3em;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .horrific {
+    font-size: 0.8em;
+    margin-left: 70px;
+  }
+
+  .mythicfade {
+    font-size: 0.8em;
+  }
+
+  .nyalothafade {
+    font-size: 0.8em;
   }
 }

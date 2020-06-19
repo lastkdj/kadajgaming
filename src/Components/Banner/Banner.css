@@ -188,13 +188,28 @@
   }
 }
 
+.videoguldan {
+  display: none;
+}
+
 @media (min-width: 375px) and (max-width: 480px) {
   .container {
-    background-image: url(../Imagenes/guldan3.jpg);
+    /* background-image: url(../Imagenes/guldan3.jpg); */
+    background-size: 30em;
+    background-position: 3em 3em 3em;
+    background-repeat: no-repeat;
     display: flex;
-    height: 80vh;
+    height: 60vh;
     justify-content: flex-start;
     flex-direction: column;
+  }
+
+  .videoguldan {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    filter: brightness(60%);
   }
 
   .containerNest {
@@ -223,15 +238,25 @@
   }
 
   .firstsection h1 {
-    margin: 0%;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-    font-size: 4em;
-    text-shadow: 2px 2px #000000;
+    font-size: 3em;
+    margin-bottom: 20px;
   }
 
   .firstsection h1 span {
-    color: rgb(90, 240, 30);
+    color: rgb(122, 240, 12);
+  }
+
+  .firstsection h2 {
+    color: white;
+
+    font-size: 2em;
+  }
+
+  .secondsection p {
+    font-size: 1em;
+  }
+
+  .secondsection p span {
+    color: rgb(122, 240, 12);
   }
 }

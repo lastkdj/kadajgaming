@@ -21,4 +21,7 @@ header {
   body {
     display: flex;
   }
+  .video {
+    display: none;
+  }
 }

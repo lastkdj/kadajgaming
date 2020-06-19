@@ -98,14 +98,10 @@ ul li a {
 @media (min-width: 375px) and (max-width: 480px) {
   .header {
     background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
+
     padding: 0px 0px;
     width: 100%;
-    border-bottom: chartreuse;
+    border-bottom: rgb(140, 245, 3);
     border-style: solid;
     border-width: 0em 0em 0.3em 0em;
   }
@@ -116,9 +112,25 @@ ul li a {
     background-position: center;
     background-size: 180px;
     background-repeat: no-repeat;
-    opacity: 1;
     width: 250px;
-    height: 95px;
+    height: 70px;
+    animation: responsiveFade ease 2s;
+  }
+
+  @keyframes responsiveFade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .sticky {
+    border-bottom: chartreuse;
+    border-style: solid;
+    border-width: 0em 0em 0.3em 0em;
+    padding: 0;
   }
 
   .MuiSvgIcon-root {
