@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f5cc4e14536cb8553e6f1c81870261d",
+    "revision": "38c72cf2a3e71e8759c106eaaad9306d",
     "url": "/kadajgaming/index.html"
   },
   {
-    "revision": "715c791a9de95782c361",
-    "url": "/kadajgaming/static/css/main.659ab8ad.chunk.css"
+    "revision": "8b44d0090316a38ce04d",
+    "url": "/kadajgaming/static/css/main.f0ea8015.chunk.css"
   },
   {
     "revision": "b4f0151cba122c0fd334",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/js/2.8e55b526.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "715c791a9de95782c361",
+    "revision": "8b44d0090316a38ce04d",
     "url": "/kadajgaming/static/js/main.3b6cf6bf.chunk.js"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/media/aff.5897e02f.jpg"
   },
   {
-    "revision": "2024f22963695bd705896ac23ddf3c1d",
-    "url": "/kadajgaming/static/media/bannerphones.2024f229.png"
+    "revision": "f418b7303a1aa2a833feae50b2ec273a",
+    "url": "/kadajgaming/static/media/bannerphones.f418b730.jpg"
   },
   {
     "revision": "5c8da087603e1fc4f0df624c6f8a85a4",
