@@ -241,7 +241,6 @@
 }
 
 .horrific {
-  overflow: auto;
   color: white;
   margin-top: 0%;
   margin-left: 50px;
@@ -258,7 +257,7 @@
 @keyframes fadeInMythic {
   0% {
     opacity: 0;
-    -webkit-transform: translateX(50px);
+    -webkit-transform: translateX(-50px);
   }
   100% {
     opacity: 1;
@@ -294,6 +293,7 @@
   .dungeoncontainer {
     display: flex;
     height: 25%;
+    flex-direction: column;
   }
 
   .nyalothacontainer {
@@ -310,7 +310,29 @@
     text-shadow: 2px 2px #000000;
   }
 
+  .destrocontainer h1 {
+    color: white;
+    margin: 0px;
+    font-size: 3em;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .mythicsection {
+    width: 100%;
+  }
+
+  .mythicsection h1 {
+    margin-left: 0px;
+  }
+  .visionsection {
+    width: 100%;
+  }
+
   .visionsection h1 {
     margin-left: 0px;
+  }
+
+  .nyalothasection h1 {
+    margin: 0px;
   }
 }
