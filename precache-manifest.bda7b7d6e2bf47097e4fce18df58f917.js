@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2963131764a9cf0ee8a5d24057f4be58",
+    "revision": "08ce60a8e55b01e4b68a4d2e02c38acf",
     "url": "/kadajgaming/index.html"
   },
   {
-    "revision": "0ab3a7a7ec66f9a71adc",
-    "url": "/kadajgaming/static/css/main.9976ba37.chunk.css"
+    "revision": "f9317feb940cb89454f2",
+    "url": "/kadajgaming/static/css/main.e8813483.chunk.css"
   },
   {
-    "revision": "b4f0151cba122c0fd334",
-    "url": "/kadajgaming/static/js/2.8e55b526.chunk.js"
+    "revision": "d982928f0cfd58130cfd",
+    "url": "/kadajgaming/static/js/2.94aa18b4.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/kadajgaming/static/js/2.8e55b526.chunk.js.LICENSE.txt"
+    "url": "/kadajgaming/static/js/2.94aa18b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0ab3a7a7ec66f9a71adc",
-    "url": "/kadajgaming/static/js/main.3b6cf6bf.chunk.js"
+    "revision": "f9317feb940cb89454f2",
+    "url": "/kadajgaming/static/js/main.234af483.chunk.js"
   },
   {
     "revision": "bfb06f68744b24ec6bb0",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/media/bannerphones.f418b730.jpg"
   },
   {
-    "revision": "5c8da087603e1fc4f0df624c6f8a85a4",
-    "url": "/kadajgaming/static/media/demo.5c8da087.jpg"
+    "revision": "b68c1dbec4291bd98ae4ff7d8754befd",
+    "url": "/kadajgaming/static/media/demo2.b68c1dbe.jpg"
   },
   {
     "revision": "3c427c1178cf4f9f7778165c23e918b9",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/media/facebook.da60e514.svg"
   },
   {
-    "revision": "6c995e31a58481a091ed2c890f25e212",
-    "url": "/kadajgaming/static/media/guldan3.6c995e31.jpg"
+    "revision": "1a46c973a3b8ff989ff694bc4e98a505",
+    "url": "/kadajgaming/static/media/guldanvideo.1a46c973.mp4"
   },
   {
     "revision": "d898bdd7e8d11b4f0694c06637f88b72",
