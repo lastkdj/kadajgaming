@@ -270,7 +270,7 @@
   flex-direction: column;
 }
 
-@media (min-width: 375px) and (max-width: 480px) {
+@media (max-width: 640px) {
   .classcontainer {
     display: flex;
     height: 25%;
