@@ -3,7 +3,6 @@ import "./Header.css";
 import { useEffect, useState } from "react";
 import { StylesProvider } from "@material-ui/styles";
 import SimpleMenu from "../Menu/Menu";
-import { Hidden, Grid } from "@material-ui/core";
 
 const Header = (props) => {
   const [scrolled, setScrolled] = useState(false);

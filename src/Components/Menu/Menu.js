@@ -1,15 +1,14 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuIcon from "@material-ui/icons/Menu";
 import { IconButton, ListItemIcon } from "@material-ui/core";
-import { makeStyles } from "@material-ui/styles";
 import HomeIcon from "@material-ui/icons/Home";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 import { Link } from "react-scroll";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Icon, InlineIcon } from "@iconify/react";
+import twitchIcon from "@iconify/icons-mdi/twitch";
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -25,6 +24,11 @@ export default function SimpleMenu() {
   const youtubeClick = () => {
     setAnchorEl(null);
     window.open("https://www.youtube.com/user/darkkadaj11");
+  };
+
+  const twitchClick = () => {
+    setAnchorEl(null);
+    window.open("https://www.twitch.tv/kadajgaming");
   };
 
   return (
@@ -79,10 +83,10 @@ export default function SimpleMenu() {
         <Link
           className="MenuText"
           activeClass="active"
-          to="Main"
+          to="/"
           spy={true}
           smooth={true}
-          offset={-55}
+          offset={0}
           duration={800}
         >
           <MenuItem onClick={youtubeClick}>
@@ -90,6 +94,22 @@ export default function SimpleMenu() {
               <VideoLibraryIcon />
             </ListItemIcon>
             Youtube
+          </MenuItem>
+        </Link>
+        <Link
+          className="MenuText"
+          activeClass="active"
+          to="/"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={800}
+        >
+          <MenuItem onClick={twitchClick}>
+            <ListItemIcon>
+              <VideoLibraryIcon />
+            </ListItemIcon>
+            Twitch
           </MenuItem>
         </Link>
       </Menu>

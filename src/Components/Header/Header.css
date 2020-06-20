@@ -48,12 +48,41 @@
   }
 }
 
+.header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeInTop ease 2s;
+}
+
 .header ul li {
   position: relative;
   list-style: none;
 }
 
 .header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+}
+
+.sticky ul {
+  display: flex;
+  position: relative;
+  list-style: none;
+}
+
+.sticky ul li {
+  position: relative;
+  list-style: none;
+}
+
+.sticky ul li a {
   position: relative;
   margin: 0 15px;
   text-decoration: none;

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Main.css";
-import anime from "animejs/lib/anime.es.js";
 
 const Main = () => {
   return (
@@ -27,7 +26,7 @@ const Main = () => {
           </p>
         </section>
         <section className="visionsection" id="horri">
-          <h1>Horrific Vision</h1>
+          <h1 className="h1vision">Horrific Vision</h1>
           <p className="horrific">5 Mask Strategys, Memento's farming</p>
         </section>
       </div>

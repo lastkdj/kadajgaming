@@ -150,7 +150,7 @@
   filter: brightness(130%);
 }
 
-.visionsection h1 {
+.h1vision {
   color: white;
   margin-left: 50px;
   margin-top: 0%;
@@ -158,6 +158,22 @@
   font-size: 3em;
   text-shadow: 2px 2px #000000;
 }
+
+/* #horri:hover .h1vision {
+  animation: parriba ease 1s;
+  bottom: 10px;
+}
+
+@keyframes parriba {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(-10px);
+  }
+} */
 
 .nyalothasection {
   background-image: url(../Imagenes/nyalotha.jpg);
