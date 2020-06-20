@@ -18,9 +18,6 @@ header {
 }
 
 @media (max-width: 640px) {
-  body {
-    display: flex;
-  }
   .video {
     display: none;
   }

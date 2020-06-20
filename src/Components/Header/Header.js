@@ -3,6 +3,7 @@ import "./Header.css";
 import { useEffect, useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import { StylesProvider } from "@material-ui/styles";
+import Drawer from "../Drawer/Drawer";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
