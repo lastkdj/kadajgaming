@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f42dd4705157e24199661f44871d1529",
+    "revision": "df82b3a84fa0d200fa07ef51bbed9f73",
     "url": "/kadajgaming/index.html"
   },
   {
-    "revision": "934680f7aea6ce6887dd",
-    "url": "/kadajgaming/static/css/main.6b8bc1a3.chunk.css"
+    "revision": "e03d2992bad9cfdbb921",
+    "url": "/kadajgaming/static/css/main.e9333391.chunk.css"
   },
   {
-    "revision": "84278ca9129bc2a9368c",
-    "url": "/kadajgaming/static/js/2.18df9e5e.chunk.js"
+    "revision": "ad478ed6c1465ef6a8f1",
+    "url": "/kadajgaming/static/js/2.76b39df6.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/kadajgaming/static/js/2.18df9e5e.chunk.js.LICENSE.txt"
+    "url": "/kadajgaming/static/js/2.76b39df6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "934680f7aea6ce6887dd",
-    "url": "/kadajgaming/static/js/main.85c7666e.chunk.js"
+    "revision": "e03d2992bad9cfdbb921",
+    "url": "/kadajgaming/static/js/main.6290f0b7.chunk.js"
   },
   {
     "revision": "bfb06f68744b24ec6bb0",
