@@ -38,54 +38,54 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>
-          <ListItemIcon>
-            <HomeIcon />
-          </ListItemIcon>
-          <Link
-            className="MenuText"
-            activeClass="active"
-            to="Home"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={800}
-          >
+        <Link
+          className="MenuText"
+          activeClass="active"
+          to="Home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={800}
+        >
+          <MenuItem onClick={handleClose}>
+            <ListItemIcon>
+              <HomeIcon />
+            </ListItemIcon>
             Home
-          </Link>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <ListItemIcon>
-            <LibraryBooksIcon />
-          </ListItemIcon>
-          <Link
-            className="MenuText"
-            activeClass="active"
-            to="Main"
-            spy={true}
-            smooth={true}
-            offset={-55}
-            duration={800}
-          >
+          </MenuItem>
+        </Link>
+        <Link
+          className="MenuText"
+          activeClass="active"
+          to="Main"
+          spy={true}
+          smooth={true}
+          offset={-55}
+          duration={800}
+        >
+          <MenuItem onClick={handleClose}>
+            <ListItemIcon>
+              <LibraryBooksIcon />
+            </ListItemIcon>
             Guides
-          </Link>
-        </MenuItem>
-        <MenuItem onClick={handleClose}>
-          <ListItemIcon>
-            <VideoLibraryIcon />
-          </ListItemIcon>
-          <Link
-            className="MenuText"
-            activeClass="active"
-            to="Main"
-            spy={true}
-            smooth={true}
-            offset={-55}
-            duration={800}
-          >
+          </MenuItem>
+        </Link>
+        <Link
+          className="MenuText"
+          activeClass="active"
+          to="Main"
+          spy={true}
+          smooth={true}
+          offset={-55}
+          duration={800}
+        >
+          <MenuItem onClick={handleClose}>
+            <ListItemIcon>
+              <VideoLibraryIcon />
+            </ListItemIcon>
             Youtube
-          </Link>
-        </MenuItem>
+          </MenuItem>
+        </Link>
       </Menu>
     </div>
   );
