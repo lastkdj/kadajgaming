@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.e9333391.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.6290f0b7.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.6290f0b7.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.fd674f37.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.2c70a1bc.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.2c70a1bc.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.76b39df6.chunk.js": "/kadajgaming/static/js/2.76b39df6.chunk.js",
-    "static/js/2.76b39df6.chunk.js.map": "/kadajgaming/static/js/2.76b39df6.chunk.js.map",
+    "static/js/2.8266c2d5.chunk.js": "/kadajgaming/static/js/2.8266c2d5.chunk.js",
+    "static/js/2.8266c2d5.chunk.js.map": "/kadajgaming/static/js/2.8266c2d5.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.9447207b2e1f07394ef3ea922910b8af.js": "/kadajgaming/precache-manifest.9447207b2e1f07394ef3ea922910b8af.js",
+    "precache-manifest.9d3bd95b56e5196d69ed3b829ec73cc8.js": "/kadajgaming/precache-manifest.9d3bd95b56e5196d69ed3b829ec73cc8.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.e9333391.chunk.css.map": "/kadajgaming/static/css/main.e9333391.chunk.css.map",
-    "static/js/2.76b39df6.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.76b39df6.chunk.js.LICENSE.txt",
+    "static/css/main.fd674f37.chunk.css.map": "/kadajgaming/static/css/main.fd674f37.chunk.css.map",
+    "static/js/2.8266c2d5.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.8266c2d5.chunk.js.LICENSE.txt",
+    "static/media/Warlogo.91aa6b9e.svg": "/kadajgaming/static/media/Warlogo.91aa6b9e.svg",
     "static/media/Main.css": "/kadajgaming/static/media/visionnew.d9cb8479.jpg",
     "static/media/Header.css": "/kadajgaming/static/media/bannerphones.f418b730.jpg",
     "static/media/facebook.da60e514.svg": "/kadajgaming/static/media/facebook.da60e514.svg",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.76b39df6.chunk.js",
-    "static/css/main.e9333391.chunk.css",
-    "static/js/main.6290f0b7.chunk.js"
+    "static/js/2.8266c2d5.chunk.js",
+    "static/css/main.fd674f37.chunk.css",
+    "static/js/main.2c70a1bc.chunk.js"
   ]
 }
