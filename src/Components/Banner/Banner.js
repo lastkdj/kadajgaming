@@ -6,6 +6,7 @@ import { ReactComponent as Instagram } from "../Imagenes/youtube.svg";
 import { ReactComponent as Youtube } from "../Imagenes/twitter.svg";
 import { ReactComponent as Twitter } from "../Imagenes/instagram.svg";
 import GuldanVideo from "../Imagenes/guldanvideo.mp4";
+import SimpleMenu from "../Menu/Menu";
 
 const Banner = () => {
   return (
@@ -13,6 +14,10 @@ const Banner = () => {
       <video className="videoguldan" autoPlay loop muted>
         <source src={GuldanVideo} type="video/mp4" />
       </video>
+      <div className="menuright">
+        <SimpleMenu />{" "}
+      </div>
+
       <div className="containerNest">
         <section className="firstsection">
           <h1>

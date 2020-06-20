@@ -27,7 +27,7 @@ const Main = () => {
         </section>
         <section className="visionsection" id="horri">
           <h1 className="h1vision">Horrific Vision</h1>
-          <p className="horrific">5 Mask Strategys, Memento's farming</p>
+          <p className="horrific">5 Mask Strategies, Memento's farming</p>
         </section>
       </div>
       <div className="nyalothacontainer">
