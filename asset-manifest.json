@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.b2517fc8.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.234af483.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.234af483.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.cba5b6e2.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.116b5501.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.116b5501.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.94aa18b4.chunk.js": "/kadajgaming/static/js/2.94aa18b4.chunk.js",
-    "static/js/2.94aa18b4.chunk.js.map": "/kadajgaming/static/js/2.94aa18b4.chunk.js.map",
+    "static/js/2.8a2c5c9c.chunk.js": "/kadajgaming/static/js/2.8a2c5c9c.chunk.js",
+    "static/js/2.8a2c5c9c.chunk.js.map": "/kadajgaming/static/js/2.8a2c5c9c.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.07c3d7110da38dcdcd6c19999a761d14.js": "/kadajgaming/precache-manifest.07c3d7110da38dcdcd6c19999a761d14.js",
+    "precache-manifest.3d8463583a67838edac22f087163faf0.js": "/kadajgaming/precache-manifest.3d8463583a67838edac22f087163faf0.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.b2517fc8.chunk.css.map": "/kadajgaming/static/css/main.b2517fc8.chunk.css.map",
-    "static/js/2.94aa18b4.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.94aa18b4.chunk.js.LICENSE.txt",
+    "static/css/main.cba5b6e2.chunk.css.map": "/kadajgaming/static/css/main.cba5b6e2.chunk.css.map",
+    "static/js/2.8a2c5c9c.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.8a2c5c9c.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/kadajgaming/static/media/visionnew.d9cb8479.jpg",
     "static/media/Header.css": "/kadajgaming/static/media/bannerphones.f418b730.jpg",
     "static/media/facebook.da60e514.svg": "/kadajgaming/static/media/facebook.da60e514.svg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.94aa18b4.chunk.js",
-    "static/css/main.b2517fc8.chunk.css",
-    "static/js/main.234af483.chunk.js"
+    "static/js/2.8a2c5c9c.chunk.js",
+    "static/css/main.cba5b6e2.chunk.css",
+    "static/js/main.116b5501.chunk.js"
   ]
 }
