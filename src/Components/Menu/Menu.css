@@ -1,6 +1,5 @@
-.MenuText {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  margin: 0;
-  letter-spacing: 0;
-  color: aqua;
+.twitch {
+  font-size: 40px;
+  margin-right: 0.5em;
+  display: flex;
 }

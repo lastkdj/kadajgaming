@@ -9,6 +9,10 @@ import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 import { Link } from "react-scroll";
 import { Icon, InlineIcon } from "@iconify/react";
 import twitchIcon from "@iconify/icons-mdi/twitch";
+import youtubeOutlined from "@iconify/icons-ant-design/youtube-outlined";
+import { ReactComponent as Guides } from "../Imagenes/Warlogo.svg";
+
+import "./Menu.css";
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -74,9 +78,9 @@ export default function SimpleMenu() {
           duration={800}
         >
           <MenuItem onClick={handleClose}>
-            <ListItemIcon>
-              <LibraryBooksIcon />
-            </ListItemIcon>
+            <div className="twitch">
+              <Guides />
+            </div>
             Guides
           </MenuItem>
         </Link>
@@ -90,9 +94,9 @@ export default function SimpleMenu() {
           duration={800}
         >
           <MenuItem onClick={youtubeClick}>
-            <ListItemIcon>
-              <VideoLibraryIcon />
-            </ListItemIcon>
+            <div className="twitch">
+              <Icon icon={youtubeOutlined} />
+            </div>
             Youtube
           </MenuItem>
         </Link>
@@ -106,9 +110,12 @@ export default function SimpleMenu() {
           duration={800}
         >
           <MenuItem onClick={twitchClick}>
-            <ListItemIcon>
+            {/* <ListItemIcon>
               <VideoLibraryIcon />
-            </ListItemIcon>
+            </ListItemIcon> */}
+            <div className="twitch">
+              <Icon icon={twitchIcon} />
+            </div>
             Twitch
           </MenuItem>
         </Link>

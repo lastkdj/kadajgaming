@@ -25,12 +25,17 @@ const Listas = (props) => {
 
   return (
     <div>
-      <List component="nav" className="classes.font">
+      <List component="nav">
         <ListItem button>
           <ListItemIcon>
             <HomeIcon />
           </ListItemIcon>
-          <ListItemText primary="Home" />
+          <ListItemText
+            primary="Home"
+            classes={{
+              paper: classes.font,
+            }}
+          />
         </ListItem>
         <ListItem button>
           <ListItemIcon>
