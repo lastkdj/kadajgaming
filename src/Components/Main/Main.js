@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Main.css";
+import anime from "animejs/lib/anime.es.js";
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main" id="Main">
       <div className="classcontainer">
         <section className="demosection">
           <h1>Demonology Warlock</h1>

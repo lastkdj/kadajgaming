@@ -1,11 +1,11 @@
 import React from "react";
 import "./Header.css";
 import { useEffect, useState } from "react";
-import MenuIcon from "@material-ui/icons/Menu";
 import { StylesProvider } from "@material-ui/styles";
-import Drawer from "../Drawer/Drawer";
+import SimpleMenu from "../Menu/Menu";
+import { Hidden, Grid } from "@material-ui/core";
 
-const Header = () => {
+const Header = (props) => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -26,14 +26,13 @@ const Header = () => {
 
   return (
     <StylesProvider injectFirst>
-      <div className={scrolled ? "sticky" : "header"}>
+      <div className={scrolled ? "sticky" : "header"} id="Header">
         <a href="#" className="logo">
           Logo
         </a>
         <div className="bannerphones"></div>
         <div>
-          {" "}
-          <MenuIcon />{" "}
+          <SimpleMenu />{" "}
         </div>
         <ul>
           <li>

@@ -29,7 +29,7 @@
   }
 }
 
-ul {
+.header ul {
   position: relative;
   display: flex;
   justify-content: center;
@@ -48,12 +48,12 @@ ul {
   }
 }
 
-ul li {
+.header ul li {
   position: relative;
   list-style: none;
 }
 
-ul li a {
+.header ul li a {
   position: relative;
   margin: 0 15px;
   text-decoration: none;
@@ -97,6 +97,7 @@ ul li a {
 
 .MuiSvgIcon-root {
   display: none;
+  color: white;
 }
 
 @media (max-width: 640px) {
@@ -141,17 +142,40 @@ ul li a {
   .MuiSvgIcon-root {
     display: block;
     margin-right: 1em;
-
-    color: white;
+    color: rgb(255, 255, 255);
     width: 1.5em;
     height: 1.5em;
   }
+  .MuiMenu-paper {
+    background-color: rgb(16, 16, 15);
 
+    -moz-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+    -webkit-box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px 6px rgb(0, 0, 0);
+    border-radius: 0.5em;
+  }
+
+  .MuiMenuItem-root {
+    font-weight: 600;
+    color: white;
+  }
+
+  .MuiMenu-list {
+    display: block;
+  }
+
+  .MuiIconButton-root {
+    padding: 6px;
+  }
   .logo {
     display: none;
   }
 
-  ul {
+  .header ul {
+    display: none;
+  }
+
+  .sticky ul {
     display: none;
   }
 }
