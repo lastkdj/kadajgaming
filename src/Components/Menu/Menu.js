@@ -8,7 +8,8 @@ import { makeStyles } from "@material-ui/styles";
 import HomeIcon from "@material-ui/icons/Home";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -19,6 +20,11 @@ export default function SimpleMenu() {
 
   const handleClose = () => {
     setAnchorEl(null);
+  };
+
+  const youtubeClick = () => {
+    setAnchorEl(null);
+    window.open("https://www.youtube.com/user/darkkadaj11");
   };
 
   return (
@@ -79,7 +85,7 @@ export default function SimpleMenu() {
           offset={-55}
           duration={800}
         >
-          <MenuItem onClick={handleClose}>
+          <MenuItem onClick={youtubeClick}>
             <ListItemIcon>
               <VideoLibraryIcon />
             </ListItemIcon>
