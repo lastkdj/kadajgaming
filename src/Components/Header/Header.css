@@ -8,6 +8,12 @@
 }
 
 .logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  width: 60px;
+  height: 70px;
+  background-image: url(../Imagenes/bannerphones.png);
   position: relative;
   font-weight: 700;
   color: white;
@@ -69,6 +75,7 @@
   letter-spacing: 2px;
   font-weight: 500px;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .sticky ul {
@@ -90,6 +97,7 @@
   letter-spacing: 2px;
   font-weight: 500px;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .sticky {
@@ -206,5 +214,11 @@
 
   .sticky ul {
     display: none;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1483px) {
+  .header {
+    padding: 40px 80px;
   }
 }

@@ -4,8 +4,6 @@ import MenuItem from "@material-ui/core/MenuItem";
 import MenuIcon from "@material-ui/icons/Menu";
 import { IconButton, ListItemIcon } from "@material-ui/core";
 import HomeIcon from "@material-ui/icons/Home";
-import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
-import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 import { Link } from "react-scroll";
 import { Icon, InlineIcon } from "@iconify/react";
 import twitchIcon from "@iconify/icons-mdi/twitch";
@@ -74,7 +72,7 @@ export default function SimpleMenu() {
           to="Main"
           spy={true}
           smooth={true}
-          offset={-55}
+          offset={0}
           duration={800}
         >
           <MenuItem onClick={handleClose}>

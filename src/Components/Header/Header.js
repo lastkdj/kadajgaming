@@ -3,6 +3,7 @@ import "./Header.css";
 import { useEffect, useState } from "react";
 import { StylesProvider } from "@material-ui/styles";
 import SimpleMenu from "../Menu/Menu";
+import { Link } from "react-scroll";
 
 const Header = (props) => {
   const [scrolled, setScrolled] = useState(false);
@@ -26,22 +27,40 @@ const Header = (props) => {
   return (
     <StylesProvider injectFirst>
       <div className={scrolled ? "sticky" : "header"} id="Header">
-        <a href="#" className="logo">
-          Logo
-        </a>
+        <a href="#" className="logo"></a>
         <div className="bannerphones"></div>
         <div>
           <SimpleMenu />{" "}
         </div>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link
+              className="MenuText"
+              activeClass="active"
+              to="Home"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={800}
+            >
+              Home
+            </Link>
           </li>
           <li>
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Guides</a>
+            <Link
+              className="guidenav"
+              activeClass="active"
+              to="Main"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={800}
+            >
+              Guides
+            </Link>
           </li>
           <li>
             <a href="#">Videos</a>
