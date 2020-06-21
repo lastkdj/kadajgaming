@@ -4,6 +4,10 @@ import { useEffect, useState } from "react";
 import { StylesProvider } from "@material-ui/styles";
 import SimpleMenu from "../Menu/Menu";
 import { Link } from "react-scroll";
+import twitchIcon from "@iconify/icons-mdi/twitch";
+import youtubeOutlined from "@iconify/icons-ant-design/youtube-outlined";
+import { Icon, InlineIcon } from "@iconify/react";
+import { ReactComponent as KadajName } from "../Imagenes/KadajLogo-05.svg";
 
 const Header = (props) => {
   const [scrolled, setScrolled] = useState(false);
@@ -27,8 +31,10 @@ const Header = (props) => {
   return (
     <StylesProvider injectFirst>
       <div className={scrolled ? "sticky" : "header"} id="Header">
-        <a href="#" className="logo"></a>
-        <div className="bannerphones"></div>
+        <div className="kadajname">
+          <KadajName />
+        </div>
+
         <div>
           <SimpleMenu />{" "}
         </div>
@@ -63,10 +69,34 @@ const Header = (props) => {
             </Link>
           </li>
           <li>
-            <a href="#">Videos</a>
+            <Link
+              className="MenuText"
+              activeClass="active"
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={800}
+            >
+              <div className="twitch">
+                <Icon icon={youtubeOutlined} />
+              </div>
+            </Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link
+              className="MenuText"
+              activeClass="active"
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={800}
+            >
+              <div className="twitch">
+                <Icon icon={twitchIcon} />
+              </div>
+            </Link>
           </li>
         </ul>
       </div>

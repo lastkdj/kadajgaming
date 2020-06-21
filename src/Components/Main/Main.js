@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Main.css";
+import { ReactComponent as KadajName } from "../Imagenes/KadajLogo-05.svg";
 
 const Main = () => {
   return (
