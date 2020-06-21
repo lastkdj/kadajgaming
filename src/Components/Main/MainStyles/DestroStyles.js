@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import DestroImg from "../Imagenes/destro.jpg";
+import DestroImg from "../../Imagenes/destro.jpg";
 
 const DestroStyles = makeStyles((theme) => ({
   destrosection: {
@@ -40,6 +40,8 @@ const DestroStyles = makeStyles((theme) => ({
     textShadow: "2px 2px #000000",
     justifyContent: "center",
     textAlign: "center",
+    fontFamily: "Poppins, sans-serif",
+    fontWeight: "700",
 
     [theme.breakpoints.up("md")]: {},
 

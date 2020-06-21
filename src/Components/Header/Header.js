@@ -8,8 +8,11 @@ import twitchIcon from "@iconify/icons-mdi/twitch";
 import youtubeOutlined from "@iconify/icons-ant-design/youtube-outlined";
 import { Icon, InlineIcon } from "@iconify/react";
 import { ReactComponent as KadajName } from "../Imagenes/KadajLogo-05.svg";
+import Grid from "@material-ui/core/Grid";
+import HeaderStyles from "./HeaderStyles/HeaderStyles";
 
 const Header = (props) => {
+  const classes = HeaderStyles();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -30,11 +33,12 @@ const Header = (props) => {
 
   return (
     <StylesProvider injectFirst>
-      <div className={scrolled ? "sticky" : "header"} id="Header">
-        <div className="kadajname">
-          <KadajName />
-        </div>
-
+      <Grid
+        xs={12}
+        container
+        className={scrolled ? "sticky" : "header"}
+        id="Header"
+      >
         <div>
           <SimpleMenu />{" "}
         </div>
@@ -94,7 +98,7 @@ const Header = (props) => {
             </Link>
           </li>
         </ul>
-      </div>
+      </Grid>
     </StylesProvider>
   );
 };

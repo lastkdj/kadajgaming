@@ -1,11 +1,10 @@
 import { makeStyles } from "@material-ui/core/styles";
-import AffliImg from "../Imagenes/aff.jpg";
+import DemoImg from "../../Imagenes/demo2.jpg";
 
-const AffliStyles = makeStyles((theme) => ({
-  afflisection: {
+const DemoStyles = makeStyles((theme) => ({
+  demosection: {
     display: "flex",
-    filter: "grayscale(0%)",
-    backgroundImage: `url(${AffliImg})`,
+    backgroundImage: `url(${DemoImg})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     flexDirection: "column",
@@ -14,7 +13,8 @@ const AffliStyles = makeStyles((theme) => ({
     height: "20vh",
     backgroundPosition: "center",
     boxShadow: "3px 3px 5px 6px rgb(0, 0, 0)",
-    transition: "filter 0.2s ease-in-out",
+    transition: "filter .2s ease-in-out",
+    filter: "grayscale(0%)",
 
     [theme.breakpoints.up("md")]: {
       height: "30vh",
@@ -29,16 +29,18 @@ const AffliStyles = makeStyles((theme) => ({
     },
   },
 
-  afflitext: {
+  demotext: {
     color: "white",
     marginTop: "0px",
     marginBottom: "0px",
-    marginLeft: "50px",
-    marginRight: "50px",
+    marginLeft: "10px",
+    marginRight: "10px",
     fontSize: "2em",
     textShadow: "2px 2px #000000",
     justifyContent: "center",
     textAlign: "center",
+    fontFamily: "Poppins, sans-serif",
+    fontWeight: "700",
 
     [theme.breakpoints.up("md")]: {},
 
@@ -46,8 +48,9 @@ const AffliStyles = makeStyles((theme) => ({
       color: "white",
       fontSize: "3em",
       textAlign: "left",
+      marginLeft: "50px",
     },
   },
 }));
 
-export default AffliStyles;
+export default DemoStyles;

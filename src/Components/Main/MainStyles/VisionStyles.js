@@ -1,24 +1,24 @@
 import { makeStyles } from "@material-ui/core/styles";
-import NyalothaImg from "../Imagenes/nyalotha.jpg";
+import VisionImg from "../../Imagenes/visionnew.jpg";
 
-const NyalothaStyles = makeStyles((theme) => ({
-  nyalothasection: {
+const VisionStyles = makeStyles((theme) => ({
+  visionsection: {
     display: "flex",
-    backgroundImage: `url(${NyalothaImg})`,
+    backgroundImage: `url(${VisionImg})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     flexDirection: "column",
     justifyContent: "center",
     cursor: "pointer",
     height: "20vh",
-    backgroundPosition: "10% 60%",
+    backgroundPosition: "center",
     boxShadow: "3px 3px 5px 6px rgb(0, 0, 0)",
     transition: "filter 3s ease-in-out",
     filter: "brightness(100%)",
 
     "&:hover": {
       filter: "brightness(130%)",
-      "& $nyalothafade": {
+      "& $visionfade": {
         display: "block",
         animation: "fadeIn ease 1s",
       },
@@ -39,16 +39,18 @@ const NyalothaStyles = makeStyles((theme) => ({
     to: { right: "50px" },
   },
 
-  nyalothatext: {
+  visiontext: {
     color: "white",
     marginTop: "0px",
     marginBottom: "0px",
-    marginLeft: "50px",
-    marginRight: "50px",
+    marginLeft: "10px",
+    marginRight: "10px",
     fontSize: "2em",
     textShadow: "2px 2px #000000",
     justifyContent: "center",
     textAlign: "center",
+    fontFamily: "Poppins, sans-serif",
+    fontWeight: "700",
 
     [theme.breakpoints.up("md")]: {},
 
@@ -60,7 +62,7 @@ const NyalothaStyles = makeStyles((theme) => ({
     },
   },
 
-  nyalothafade: {
+  visionfade: {
     marginTop: "0%",
     color: "white",
     fontSize: "0.8em",
@@ -80,4 +82,4 @@ const NyalothaStyles = makeStyles((theme) => ({
   },
 }));
 
-export default NyalothaStyles;
+export default VisionStyles;

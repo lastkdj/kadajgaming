@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import MythicImg from "../Imagenes/dungeon.jpg";
+import MythicImg from "../../Imagenes/dungeon.jpg";
 
 const MythicStyles = makeStyles((theme) => ({
   mythicsection: {
@@ -49,6 +49,8 @@ const MythicStyles = makeStyles((theme) => ({
     textShadow: "2px 2px #000000",
     justifyContent: "center",
     textAlign: "center",
+    fontFamily: "Poppins, sans-serif",
+    fontWeight: "700",
 
     [theme.breakpoints.up("md")]: {},
 

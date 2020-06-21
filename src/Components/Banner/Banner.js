@@ -14,9 +14,6 @@ const Banner = () => {
       <video className="videoguldan" autoPlay loop muted>
         <source src={GuldanVideo} type="video/mp4" />
       </video>
-      <div className="menuright">
-        <SimpleMenu />{" "}
-      </div>
 
       <div className="containerNest">
         <section className="firstsection">
