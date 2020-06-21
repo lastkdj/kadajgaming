@@ -68,9 +68,9 @@ const Header = (props) => {
               Guides
             </Link>
           </li>
-          <li>
+          <li className="socials">
             <Link
-              className="MenuText"
+              className="socials"
               activeClass="active"
               to="/"
               spy={true}
@@ -78,14 +78,11 @@ const Header = (props) => {
               offset={0}
               duration={800}
             >
-              <div className="twitch">
-                <Icon icon={youtubeOutlined} />
-              </div>
+              <Icon icon={youtubeOutlined} />
             </Link>
           </li>
-          <li>
+          <li className="socials">
             <Link
-              className="MenuText"
               activeClass="active"
               to="/"
               spy={true}
@@ -93,9 +90,7 @@ const Header = (props) => {
               offset={0}
               duration={800}
             >
-              <div className="twitch">
-                <Icon icon={twitchIcon} />
-              </div>
+              <Icon icon={twitchIcon} />
             </Link>
           </li>
         </ul>

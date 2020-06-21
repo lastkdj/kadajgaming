@@ -1,44 +1,84 @@
 import React, { useState } from "react";
 import "./Main.css";
 import { ReactComponent as KadajName } from "../Imagenes/KadajLogo-05.svg";
+import Grid from "@material-ui/core/Grid";
+import DemoStyles from "./DemoStyles";
+import AffliStyles from "./AffliStyles";
+import DestroStyles from "./DestroStyles";
+import MythicStyles from "./MythicStyles";
+import VisionStyles from "./VisionStyles";
+import NyalothaStyles from "./NyalothaStyles";
 
 const Main = () => {
+  const classes = {
+    democlass: DemoStyles(),
+    affliclass: AffliStyles(),
+    destroclass: DestroStyles(),
+    mythicclass: MythicStyles(),
+    visionclass: VisionStyles(),
+    nyalothaclass: NyalothaStyles(),
+  };
+
   return (
     <div className="main" id="Main">
-      <div className="classcontainer">
-        <section className="demosection">
-          <h1>Demonology Warlock</h1>
-        </section>
+      <Grid container className="classcontainer">
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.democlass.demosection}
+        >
+          <h1 className={classes.democlass.demotext}>Demonology Warlock</h1>
+        </Grid>
 
-        <section className="afflicsection">
-          <h1>Affliction Warlock</h1>
-        </section>
-      </div>
-      <div className="destrocontainer">
-        <section className="destrosection">
-          <h1>Destruction Warlock</h1>
-        </section>
-      </div>
-      <div className="dungeoncontainer">
-        <section className="mythicsection" id="parent2">
-          <h1>Mythic +</h1>
-          <p className="mythicfade">
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.affliclass.afflisection}
+        >
+          <h1 className={classes.affliclass.afflitext}>Affliction Warlock</h1>
+        </Grid>
+        <Grid item xs={12} className={classes.destroclass.destrosection}>
+          <h1 className={classes.destroclass.destrotext}>
+            Destruction Warlock
+          </h1>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.mythicclass.mythicsection}
+        >
+          <h1 className={classes.mythicclass.mythictext}>Mythic +</h1>
+          <p className={classes.mythicclass.mythicfade}>
             Demonology the best M+ spec so far? Find out!
           </p>
-        </section>
-        <section className="visionsection" id="horri">
-          <h1 className="h1vision">Horrific Vision</h1>
-          <p className="horrific">5 Mask Strategies, Memento's farming</p>
-        </section>
-      </div>
-      <div className="nyalothacontainer">
-        <section className="nyalothasection" id="parent">
-          <h1>Nyalotha Raid Guide</h1>
-          <p className="nyalothafade">
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.visionclass.visionsection}
+        >
+          <h1 className={classes.visionclass.visiontext}>Horrific Vision</h1>
+          <p className={classes.visionclass.visionfade}>
+            5 Mask Strategies, Memento's farming
+          </p>
+        </Grid>
+        <Grid item xs={12} className={classes.nyalothaclass.nyalothasection}>
+          <h1 className={classes.nyalothaclass.nyalothatext}>
+            Nyalotha Raid Guide
+          </h1>
+          <p className={classes.nyalothaclass.nyalothafade}>
             Raiding tips, BiS gear, log parses and more..
           </p>
-        </section>
-      </div>
+        </Grid>
+      </Grid>
     </div>
   );
 };
