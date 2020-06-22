@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b462b2e2461eae02d4e810d70a9e2ae",
+    "revision": "e690ea9901434e4f1a945a3898693d6a",
     "url": "/kadajgaming/index.html"
   },
   {
-    "revision": "6a929bdc0b0ef11d0eb5",
-    "url": "/kadajgaming/static/css/main.fc013470.chunk.css"
+    "revision": "89edbf2f8cda5c8ad028",
+    "url": "/kadajgaming/static/css/main.cbbaf684.chunk.css"
   },
   {
     "revision": "ddb32829944a7d279c72",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadajgaming/static/js/2.ea54b3dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a929bdc0b0ef11d0eb5",
-    "url": "/kadajgaming/static/js/main.2db14d52.chunk.js"
+    "revision": "89edbf2f8cda5c8ad028",
+    "url": "/kadajgaming/static/js/main.7add10f7.chunk.js"
   },
   {
     "revision": "bfb06f68744b24ec6bb0",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kadajgaming/static/css/main.fc013470.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.2db14d52.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.2db14d52.chunk.js.map",
+    "main.css": "/kadajgaming/static/css/main.cbbaf684.chunk.css",
+    "main.js": "/kadajgaming/static/js/main.7add10f7.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.7add10f7.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
     "static/js/2.ea54b3dc.chunk.js": "/kadajgaming/static/js/2.ea54b3dc.chunk.js",
     "static/js/2.ea54b3dc.chunk.js.map": "/kadajgaming/static/js/2.ea54b3dc.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.8ec8ad4a53ba5f2e427dd9eef0d822f6.js": "/kadajgaming/precache-manifest.8ec8ad4a53ba5f2e427dd9eef0d822f6.js",
+    "precache-manifest.47f23fc2414d7fda2150f6cd46a7c355.js": "/kadajgaming/precache-manifest.47f23fc2414d7fda2150f6cd46a7c355.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
-    "static/css/main.fc013470.chunk.css.map": "/kadajgaming/static/css/main.fc013470.chunk.css.map",
+    "static/css/main.cbbaf684.chunk.css.map": "/kadajgaming/static/css/main.cbbaf684.chunk.css.map",
     "static/js/2.ea54b3dc.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.ea54b3dc.chunk.js.LICENSE.txt",
     "static/media/KadajLogo-05.47d6e85b.svg": "/kadajgaming/static/media/KadajLogo-05.47d6e85b.svg",
     "static/media/Warlogo.91aa6b9e.svg": "/kadajgaming/static/media/Warlogo.91aa6b9e.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
     "static/js/2.ea54b3dc.chunk.js",
-    "static/css/main.fc013470.chunk.css",
-    "static/js/main.2db14d52.chunk.js"
+    "static/css/main.cbbaf684.chunk.css",
+    "static/js/main.7add10f7.chunk.js"
   ]
 }
