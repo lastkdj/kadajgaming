@@ -36,10 +36,12 @@ const Banner = () => {
           className={classes.mobilebanner}
         >
           <Grid item xs={12} lg={12} className={classes.firstsection}>
-            <h1 className={classes.firstsectiontext}>
+            <Typography variant="h1" classes={{ h1: classes.firstsectiontext }}>
               <span className={classes.firstsectionspan}>Kadaj</span> Gaming
-            </h1>
-            <h2 className={classes.firstsectionh2}>Guides</h2>
+            </Typography>
+            <Typography variant="h2" classes={{ h2: classes.firstsectionh2 }}>
+              Guides
+            </Typography>
           </Grid>
           <Grid item xs={12} lg={12} className={classes.secondsection}>
             <p className={classes.secondsectionp}>
