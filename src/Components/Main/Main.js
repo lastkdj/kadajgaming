@@ -7,6 +7,7 @@ import MythicStyles from "./MainStyles/MythicStyles";
 import VisionStyles from "./MainStyles/VisionStyles";
 import NyalothaStyles from "./MainStyles/NyalothaStyles";
 import Typography from "@material-ui/core/Typography";
+import { StylesProvider } from "@material-ui/styles";
 
 const Main = () => {
   const classes = {
@@ -19,62 +20,86 @@ const Main = () => {
   };
 
   return (
-    <Grid container id="Main">
-      <Grid
-        item
-        xs={12}
-        md={6}
-        lg={6}
-        className={classes.democlass.demosection}
-      >
-        <h1 className={classes.democlass.demotext}>Demonology Warlock</h1>
-      </Grid>
+    <StylesProvider injectFirst>
+      <Grid container id="Main">
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.democlass.demosection}
+        >
+          <Typography variant="h1" className={classes.democlass.demotext}>
+            Demonology Warlock
+          </Typography>
+        </Grid>
 
-      <Grid
-        item
-        xs={12}
-        md={6}
-        lg={6}
-        className={classes.affliclass.afflisection}
-      >
-        <h1 className={classes.affliclass.afflitext}>Affliction Warlock</h1>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.affliclass.afflisection}
+        >
+          <Typography variant="h1" className={classes.affliclass.afflitext}>
+            Affliction Warlock
+          </Typography>
+        </Grid>
+        <Grid item xs={12} className={classes.destroclass.destrosection}>
+          <Typography variant="h1" className={classes.destroclass.destrotext}>
+            Destruction Warlock
+          </Typography>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.mythicclass.mythicsection}
+        >
+          <Typography variant="h1" className={classes.mythicclass.mythictext}>
+            Mythic +
+          </Typography>
+          <Typography
+            variant="body1"
+            className={classes.mythicclass.mythicfade}
+          >
+            Demonology the best M+ spec so far? Find out!
+          </Typography>
+        </Grid>
+        <Grid
+          item
+          xs={12}
+          md={6}
+          lg={6}
+          className={classes.visionclass.visionsection}
+        >
+          <Typography variant="h1" className={classes.visionclass.visiontext}>
+            Horrific Vision
+          </Typography>
+          <Typography
+            variant="body1"
+            className={classes.visionclass.visionfade}
+          >
+            5 Mask Strategies, Memento's farming
+          </Typography>
+        </Grid>
+        <Grid item xs={12} className={classes.nyalothaclass.nyalothasection}>
+          <Typography
+            variant="h1"
+            className={classes.nyalothaclass.nyalothatext}
+          >
+            Nyalotha Raid Guide
+          </Typography>
+          <Typography
+            variant="body1"
+            className={classes.nyalothaclass.nyalothafade}
+          >
+            Raiding tips, BiS gear, log parses and more..
+          </Typography>
+        </Grid>
       </Grid>
-      <Grid item xs={12} className={classes.destroclass.destrosection}>
-        <h1 className={classes.destroclass.destrotext}>Destruction Warlock</h1>
-      </Grid>
-      <Grid
-        item
-        xs={12}
-        md={6}
-        lg={6}
-        className={classes.mythicclass.mythicsection}
-      >
-        <h1 className={classes.mythicclass.mythictext}>Mythic +</h1>
-        <p className={classes.mythicclass.mythicfade}>
-          Demonology the best M+ spec so far? Find out!
-        </p>
-      </Grid>
-      <Grid
-        item
-        xs={12}
-        md={6}
-        lg={6}
-        className={classes.visionclass.visionsection}
-      >
-        <h1 className={classes.visionclass.visiontext}>Horrific Vision</h1>
-        <p className={classes.visionclass.visionfade}>
-          5 Mask Strategies, Memento's farming
-        </p>
-      </Grid>
-      <Grid item xs={12} className={classes.nyalothaclass.nyalothasection}>
-        <h1 className={classes.nyalothaclass.nyalothatext}>
-          Nyalotha Raid Guide
-        </h1>
-        <p className={classes.nyalothaclass.nyalothafade}>
-          Raiding tips, BiS gear, log parses and more..
-        </p>
-      </Grid>
-    </Grid>
+    </StylesProvider>
   );
 };
 

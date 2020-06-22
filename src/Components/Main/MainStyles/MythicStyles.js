@@ -13,7 +13,7 @@ const MythicStyles = makeStyles((theme) => ({
     height: "20vh",
     backgroundPosition: "center",
     boxShadow: "3px 3px 5px 6px rgb(0, 0, 0)",
-    transition: "filter 3s ease-in-out",
+    transition: "filter 4s ease-in-out",
     filter: "brightness(100%)",
 
     "&:hover": {

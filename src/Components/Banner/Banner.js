@@ -38,26 +38,23 @@ const Banner = () => {
             className={classes.mobilebanner}
           >
             <Grid item xs={12} lg={12} className={classes.firstsection}>
-              <Typography
-                variant="h1"
-                classes={{ h1: classes.firstsectiontext }}
-              >
+              <Typography variant="h1" classesName={classes.firstsectiontext}>
                 <span className={classes.firstsectionspan}>Kadaj</span> Gaming
               </Typography>
-              <Typography variant="h2" classes={{ h2: classes.firstsectionh2 }}>
+              <Typography variant="h2" className={classes.firstsectionh2}>
                 Guides
               </Typography>
             </Grid>
             <Grid item xs={12} lg={12} className={classes.secondsection}>
-              <p className={classes.secondsectionp}>
+              <Typography variant="body1" className={classes.secondsectionp}>
                 Welcome to the new Warlock Workshop
-              </p>
-              <p className={classes.secondsectionp}>
+              </Typography>
+              <Typography variant="body1" className={classes.secondsectionp}>
                 And learn all the basics of{" "}
                 <span className={classes.secondsectionspan}>
                   Mardita sea borre todo
                 </span>
-              </p>
+              </Typography>
             </Grid>
           </Grid>
         </Grid>
