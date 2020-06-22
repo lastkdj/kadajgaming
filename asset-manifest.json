@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kadajgaming/static/css/main.cbbaf684.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.46c6d460.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.46c6d460.chunk.js.map",
+    "main.js": "/kadajgaming/static/js/main.d19697d3.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.d19697d3.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
     "static/js/2.3dde937f.chunk.js": "/kadajgaming/static/js/2.3dde937f.chunk.js",
     "static/js/2.3dde937f.chunk.js.map": "/kadajgaming/static/js/2.3dde937f.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.4f1430e091a8c424e49d9c3159ba9c74.js": "/kadajgaming/precache-manifest.4f1430e091a8c424e49d9c3159ba9c74.js",
+    "precache-manifest.af2005c276d174dc89ed66b4bc3a4e6f.js": "/kadajgaming/precache-manifest.af2005c276d174dc89ed66b4bc3a4e6f.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
     "static/css/main.cbbaf684.chunk.css.map": "/kadajgaming/static/css/main.cbbaf684.chunk.css.map",
     "static/js/2.3dde937f.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.3dde937f.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.dce8df2e.js",
     "static/js/2.3dde937f.chunk.js",
     "static/css/main.cbbaf684.chunk.css",
-    "static/js/main.46c6d460.chunk.js"
+    "static/js/main.d19697d3.chunk.js"
   ]
 }
