@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kadajgaming/static/css/main.cbbaf684.chunk.css",
-    "main.js": "/kadajgaming/static/js/main.baf31250.chunk.js",
-    "main.js.map": "/kadajgaming/static/js/main.baf31250.chunk.js.map",
+    "main.js": "/kadajgaming/static/js/main.12a39e06.chunk.js",
+    "main.js.map": "/kadajgaming/static/js/main.12a39e06.chunk.js.map",
     "runtime-main.js": "/kadajgaming/static/js/runtime-main.dce8df2e.js",
     "runtime-main.js.map": "/kadajgaming/static/js/runtime-main.dce8df2e.js.map",
-    "static/js/2.ea54b3dc.chunk.js": "/kadajgaming/static/js/2.ea54b3dc.chunk.js",
-    "static/js/2.ea54b3dc.chunk.js.map": "/kadajgaming/static/js/2.ea54b3dc.chunk.js.map",
+    "static/js/2.2446876a.chunk.js": "/kadajgaming/static/js/2.2446876a.chunk.js",
+    "static/js/2.2446876a.chunk.js.map": "/kadajgaming/static/js/2.2446876a.chunk.js.map",
     "index.html": "/kadajgaming/index.html",
-    "precache-manifest.a077db238551203f6aeb6e3bc2e56404.js": "/kadajgaming/precache-manifest.a077db238551203f6aeb6e3bc2e56404.js",
+    "precache-manifest.2256fd56028fae5b4bdf1b323233dfb1.js": "/kadajgaming/precache-manifest.2256fd56028fae5b4bdf1b323233dfb1.js",
     "service-worker.js": "/kadajgaming/service-worker.js",
     "static/css/main.cbbaf684.chunk.css.map": "/kadajgaming/static/css/main.cbbaf684.chunk.css.map",
-    "static/js/2.ea54b3dc.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.ea54b3dc.chunk.js.LICENSE.txt",
+    "static/js/2.2446876a.chunk.js.LICENSE.txt": "/kadajgaming/static/js/2.2446876a.chunk.js.LICENSE.txt",
     "static/media/KadajLogo-05.47d6e85b.svg": "/kadajgaming/static/media/KadajLogo-05.47d6e85b.svg",
     "static/media/Warlogo.91aa6b9e.svg": "/kadajgaming/static/media/Warlogo.91aa6b9e.svg",
     "static/media/aff.jpg": "/kadajgaming/static/media/aff.5897e02f.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dce8df2e.js",
-    "static/js/2.ea54b3dc.chunk.js",
+    "static/js/2.2446876a.chunk.js",
     "static/css/main.cbbaf684.chunk.css",
-    "static/js/main.baf31250.chunk.js"
+    "static/js/main.12a39e06.chunk.js"
   ]
 }

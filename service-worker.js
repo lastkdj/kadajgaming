@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kadajgaming/precache-manifest.a077db238551203f6aeb6e3bc2e56404.js"
+  "/kadajgaming/precache-manifest.2256fd56028fae5b4bdf1b323233dfb1.js"
 );
 
 self.addEventListener('message', (event) => {
