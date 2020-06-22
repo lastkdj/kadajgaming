@@ -111,7 +111,6 @@ const BannerStyles = makeStyles((theme) => ({
     margin: "0%",
     color: "white",
     textDecoration: "none",
-
     textShadow: "2px 2px #000000",
     fontFamily: "Poppins, sans-serif",
 
