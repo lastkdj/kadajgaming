@@ -11,7 +11,7 @@ import { ReactComponent as KadajName } from "../Imagenes/KadajLogo-05.svg";
 import Grid from "@material-ui/core/Grid";
 import HeaderStyles from "./HeaderStyles/HeaderStyles";
 
-const Header = (props) => {
+const Header = () => {
   const classes = HeaderStyles();
   const [scrolled, setScrolled] = useState(false);
 
@@ -31,21 +31,26 @@ const Header = (props) => {
     };
   }, []);
 
+  const youtubeClick = () => {
+    window.open("https://www.youtube.com/user/darkkadaj11");
+  };
+
+  const twitchClick = () => {
+    window.open("https://www.twitch.tv/kadajgaming");
+  };
+
   return (
     <StylesProvider injectFirst>
       <Grid
-        xs={12}
         container
-        className={scrolled ? "sticky" : "header"}
+        className={scrolled ? classes.sticky : classes.header}
         id="Header"
       >
-        <div>
-          <SimpleMenu />{" "}
-        </div>
-        <ul>
-          <li>
+        <SimpleMenu />{" "}
+        <ul className={classes.ul}>
+          <li className={classes.li}>
             <Link
-              className="MenuText"
+              className={classes.a}
               activeClass="active"
               to="Home"
               spy={true}
@@ -56,43 +61,48 @@ const Header = (props) => {
               Home
             </Link>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li className={classes.li}>
+            <a className={classes.a} href="#">
+              About
+            </a>
           </li>
-          <li>
+          <li className={classes.li}>
             <Link
-              className="guidenav"
+              className={classes.a}
               activeClass="active"
               to="Main"
               spy={true}
               smooth={true}
-              offset={-150}
+              offset={-120}
               duration={800}
             >
               Guides
             </Link>
           </li>
-          <li className="socials">
+          <li className={classes.li}>
             <Link
-              className="socials"
+              className={classes.socials}
               activeClass="active"
               to="/"
               spy={true}
               smooth={true}
               offset={0}
               duration={800}
+              onClick={twitchClick}
             >
               <Icon icon={youtubeOutlined} />
             </Link>
           </li>
-          <li className="socials">
+          <li className={classes.li}>
             <Link
+              className={classes.socials}
               activeClass="active"
               to="/"
               spy={true}
               smooth={true}
               offset={0}
               duration={800}
+              onClick={twitchClick}
             >
               <Icon icon={twitchIcon} />
             </Link>

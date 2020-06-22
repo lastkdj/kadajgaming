@@ -108,9 +108,6 @@ export default function SimpleMenu() {
           duration={800}
         >
           <MenuItem onClick={twitchClick}>
-            {/* <ListItemIcon>
-              <VideoLibraryIcon />
-            </ListItemIcon> */}
             <div className="twitch">
               <Icon icon={twitchIcon} />
             </div>

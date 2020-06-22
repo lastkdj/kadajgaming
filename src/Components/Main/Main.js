@@ -19,7 +19,7 @@ const Main = () => {
   };
 
   return (
-    <Grid xs={12} container id="Main">
+    <Grid container id="Main">
       <Grid
         item
         xs={12}

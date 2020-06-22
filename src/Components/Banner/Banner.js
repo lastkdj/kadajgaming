@@ -1,54 +1,62 @@
 import React from "react";
 import "./Banner.css";
-import { ReactComponent as TwitchSvg } from "../Imagenes/twitchsvg.svg";
-import { ReactComponent as Facebook } from "../Imagenes/facebook.svg";
-import { ReactComponent as Instagram } from "../Imagenes/youtube.svg";
-import { ReactComponent as Youtube } from "../Imagenes/twitter.svg";
-import { ReactComponent as Twitter } from "../Imagenes/instagram.svg";
 import GuldanVideo from "../Imagenes/guldanvideo.mp4";
 import SimpleMenu from "../Menu/Menu";
+import Grid from "@material-ui/core/Grid";
+import BannerStyles from "./BannerStyles/BannerStyles";
+import Typography from "@material-ui/core/Typography";
 
 const Banner = () => {
+  const classes = BannerStyles();
+
   return (
-    <div className="container">
+    <Grid container className={classes.container}>
+      <Grid item xs={12} className={classes.menuxs}>
+        <SimpleMenu />
+      </Grid>
+
       <video className="videoguldan" autoPlay loop muted>
         <source src={GuldanVideo} type="video/mp4" />
       </video>
 
-      <div className="containerNest">
-        <section className="firstsection">
-          <h1>
-            <span>Kadaj</span> Gaming
-          </h1>
-          <h2>Guides</h2>
-        </section>
-        <section className="secondsection">
-          <p>Welcome to the new Warlock Workshop</p>
-          <p>
-            And learn all the basics of <span>Mardita sea borre todo</span>
-          </p>
-        </section>
-      </div>
-      <div className="social">
-        <ul>
-          <li id="twitch">
-            <a href="#"> {/* <TwitchSvg />{" "} */}</a>
-          </li>
-          <li id="fb">
-            <a href="#">{/* <Facebook /> */}</a>
-          </li>
-          <li id="tweet">
-            <a href="#">{/* <Youtube /> */}</a>
-          </li>
-          <li id="yt">
-            <a href="#">{/* <Twitter /> */}</a>
-          </li>
-          <li id="inst">
-            <a href="#">{/* <Instagram /> */}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+      <Grid
+        container
+        item
+        xs={12}
+        md={12}
+        lg={6}
+        className={classes.containernest}
+      >
+        <Grid
+          container
+          item
+          xs={12}
+          md={8}
+          lg={8}
+          className={classes.mobilebanner}
+        >
+          <Grid item xs={12} lg={12} className={classes.firstsection}>
+            <Typography variant="h1" className={classes.firstsectiontext}>
+              <span className={classes.firstsectionspan}>Kadaj</span> Gaming
+            </Typography>
+            <Typography variant="h2" className={classes.firstsectionh2}>
+              Guides
+            </Typography>
+          </Grid>
+          <Grid item xs={12} lg={12} className={classes.secondsection}>
+            <Typography variant="body1" className={classes.secondsectionp}>
+              Welcome to the new Warlock Workshop
+            </Typography>
+            <Typography variant="body1" className={classes.secondsectionp}>
+              And learn all the basics of{" "}
+              <span className={classes.secondsectionspan}>
+                Mardita sea borre todo
+              </span>
+            </Typography>
+          </Grid>
+        </Grid>
+      </Grid>
+    </Grid>
   );
 };
 

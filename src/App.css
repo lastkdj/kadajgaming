@@ -17,7 +17,7 @@ header {
   width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 960px) {
   .video {
     display: none;
   }
